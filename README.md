@@ -18,7 +18,34 @@ This install script will tell you the files it will create and ask for your pass
 
 After the install, brew will print an output describing where to find more information on how to use it.
 
-Open a new terminal window to begin using your newly installed tools.
+### Running Brewfile
+
+This repo contains a file that will tell Brew which files to install. Download the file to your home directory with the command:
+
+```shell
+cd ~
+curl -LO https://raw.git.generalassemb.ly/wdi-nyc-lambda/installfest/master/Brewfile
+```
+
+Now use Brew to run the brew file with:
+
+```shell
+brew bundle
+```
+
+You will likely hit an error here.
+
+It is safe to ignore errors that read:
+
+```shell
+Error: It seems there is already an App at '/Applications/SOME-APP.app'.
+```
+
+(If you'd rather have your Applications installed with brew, you can delete the app with `rm -rf /Applications/SOME-APP.app` and then re-run `brew bundle`; your old settings should be uneffected)
+
+For other errors, please raise your hand and an instructor will be over to help.
+
+Once you have finished, open a new terminal window to begin using your newly installed tools.
 
 ### Bash Git Prompt
 
@@ -84,9 +111,23 @@ You may get an error `psql: FATAL:  database "YOUR-USER-NAME" does not exist`.
 To fix this run:
 
 ```shell
-createdb jsm
+createdb `whoami`
 ```
 
 ### Postgres Reference
 
 - [Postgres Troubleshooting](https://postgresapp.com/documentation/troubleshooting.html#errors-when-connecting-to-the-postgresql-server)
+- [Postgres Docs](https://www.postgresql.org/docs/10/static/index.html)
+
+## VS Code Setup
+
+Finally we will add some extensions to our editor, VS Code, to assist us in writing clean, clear code.
+
+Open VS Code from the command line using `code` or spotlight (`⌘ + SPC`)
+
+In VS Code, open the extenison pannel with `⇧ + ⌘ + X`
+
+Install:
+
+- ESLint by Dirk Baueumer
+- VS Live Share by Microsoft
