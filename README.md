@@ -14,7 +14,7 @@ Install homebrew from the command line with the command:
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-This install script will tell you the files it will create and ask for your password.
+This install script will tell you the files it will create and ask for your password. **YOUR PASSWORD WILL NOT DISPLAY**, just keep typing.
 
 After the install, brew will print an output describing where to find more information on how to use it.
 
