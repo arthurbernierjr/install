@@ -24,7 +24,7 @@ This repo contains a file that will tell Brew which files to install. Download t
 
 ```shell
 cd ~
-curl -LO https://raw.git.generalassemb.ly/wdi-nyc-lambda/installfest/master/Brewfile
+curl -LO https://raw.git.generalassemb.ly/wdi-nyc-peloton/installfest/master/Brewfile
 ```
 
 Now use Brew to run the brew file with:
