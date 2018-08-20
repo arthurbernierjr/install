@@ -16,7 +16,7 @@ brew 'heroku'
 brew 'postgresql', restart_service: true
 
 # Applications
-cask 'visual-studio-code'
+cask 'sublime-text'
 cask 'google-chrome'
 cask 'slack'
 cask 'iterm2'
