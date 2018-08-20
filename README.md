@@ -84,10 +84,10 @@ git config --global user.name "YOUR NAME HERE"
 git config --global user.email YOUR_EMAIL@DOMAIN.COM
 ```
 
-We will also tell Git to use VS Code as our default editor:
+We will also tell Git to use Sublime Text as our default editor:
 
 ```shell
-git config --global core.editor "code --wait"
+git config --global core.editor "subl -n -w"
 ```
 
 ### Git Config Reference
