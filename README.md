@@ -135,8 +135,3 @@ createdb `whoami`
    by typing `subl .` Make sure that Sublime Text opens.
 - **Slack**: ensure that you can open Slack (`⌘-Space`, and type `sla`) and 
    communicate with your classmates!
-- **Files**: in your terminal, type `cd ~/wdi`. You should now have a 
-   directory here where you can store all of your programming projects! When
-   you then type `ls` to list the contents of that directory, you should see
-   a few directories named `unit0X` — these are where you will store all of your class
-   work.
