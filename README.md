@@ -54,7 +54,7 @@ After running the Homebrew install, we want to configure our bash prompt to disp
 From the command line, open your `~/.bash_profile` file with VS Code using the command:
 
 ```shell
-code ~/.bash_profile
+subl ~/.bash_profile
 ```
 
 Paste the following into `~/.bash_profile`:
@@ -118,16 +118,3 @@ createdb `whoami`
 
 - [Postgres Troubleshooting](https://postgresapp.com/documentation/troubleshooting.html#errors-when-connecting-to-the-postgresql-server)
 - [Postgres Docs](https://www.postgresql.org/docs/10/static/index.html)
-
-## VS Code Setup
-
-Finally we will add some extensions to our editor, VS Code, to assist us in writing clean, clear code.
-
-Open VS Code from the command line using `code` or spotlight (`⌘ + SPC`)
-
-In VS Code, open the extenison pannel with `⇧ + ⌘ + X`
-
-Install:
-
-- ESLint by Dirk Baueumer
-- VS Live Share by Microsoft
