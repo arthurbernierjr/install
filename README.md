@@ -118,3 +118,25 @@ createdb `whoami`
 
 - [Postgres Troubleshooting](https://postgresapp.com/documentation/troubleshooting.html#errors-when-connecting-to-the-postgresql-server)
 - [Postgres Docs](https://www.postgresql.org/docs/10/static/index.html)
+
+### Final Check of Mac OS Applications
+
+- **Spectacle** (for Macs): open Spectacle using Spotlight, by pressing `⌘-Space`
+   and typing `spec`, and then pressing `Return`. It will direct you to change
+   your Accessibility settings to allow it to control windowing.
+- **Terminal**: open Terminal using Spotlight (`⌘-Space`, and type `term`),
+   and then open the Preferences pane (`⌘-,`), choose Profiles, and then import
+   the profile "Tomorrow Night.terminal" from the Desktop by clicking on the
+   gear symbol at the bottom of the list of themes and choosing `Import...`.
+   Then set that profile to the default by clicking on it and choosing 
+   "Default." When you open a new terminal window it should have a black
+   background.
+- **Sublime Text**: open the terminal as above, and then open Sublime Text
+   by typing `subl .` Make sure that Sublime Text opens.
+- **Slack**: ensure that you can open Slack (`⌘-Space`, and type `sla`) and 
+   communicate with your classmates!
+- **Files**: in your terminal, type `cd ~/wdi`. You should now have a 
+   directory here where you can store all of your programming projects! When
+   you then type `ls` to list the contents of that directory, you should see
+   a few directories named `unit0X` — these are where you will store all of your class
+   work.
